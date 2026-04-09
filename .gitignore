@@ -1,0 +1,51 @@
+# ============================================================
+# .gitignore — catastro-minero-salta-qgis
+# ============================================================
+
+# --- Archivos de backup automático de QGIS ---
+*.qgz.bak
+*.qgs.bak
+*.qgd
+
+# --- Archivos temporales de QGIS ---
+*.qgs~
+*.qgz~
+
+# --- Datos geoespaciales pesados (descargar desde fuente oficial) ---
+datos/raw/*.shp
+datos/raw/*.dbf
+datos/raw/*.shx
+datos/raw/*.prj
+datos/raw/*.cpg
+datos/raw/*.qix
+datos/raw/*.sbn
+datos/raw/*.sbx
+datos/raw/*.geojson
+datos/raw/*.gpkg
+datos/raw/*.zip
+
+# Si querés versionar los datos procesados pero no los originales,
+# descomentá la siguiente línea:
+# !datos/procesado/
+
+# --- Archivos grandes en general ---
+*.tif
+*.tiff
+*.img
+*.ecw
+*.vrt
+
+# --- Sistema operativo ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Python (si usás scripts PyQGIS) ---
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+
+# --- Logs ---
+*.log
