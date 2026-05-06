@@ -8,7 +8,7 @@ El dataset proviene del Geoportal oficial de la provincia y contiene 4.104 regis
 
 ## Pregunta de investigación
 
-¿Cómo se distribuye espacialmente la actividad minera en Salta y qué patrones territoriales emergen en relación con otros usos del suelo, cuencas hídricas y comunidades indígenas?
+¿Cómo se distribuye espacialmente la actividad minera en Salta y qué patrones territoriales emergen en relación con áreas protegidas, glaciares y salares?
 
 ## Estructura del repositorio
 
